@@ -1,0 +1,11 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: playeconomy26-tls-cert
+spec:
+  secretName: playeconomy26-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  dnsNames:
+    - "playeconomy26.eastus.cloudapp.azure.com"

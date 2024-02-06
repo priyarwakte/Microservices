@@ -1,0 +1,10 @@
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: playeconomy26-host
+spec:
+  hostname: playeconomy26.eastus.cloudapp.azure.com
+  acmeProvider:
+    email: pwakte@belmontvillage.com
+  tlsSecret:
+    name: playeconomy26-tls
