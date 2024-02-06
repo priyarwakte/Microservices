@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/priyanka/Documents/Training/Projects/Play.Trading/src/Play.Trading.Service/Play.Trading.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/priyanka/Documents/Training/Projects/Play.Trading/src/Play.Trading.Service/Play.Trading.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/priyanka/Documents/Training/Projects/Play.Trading/src/Play.Trading.Service/Play.Trading.Service.csproj",
+        "projectName": "Play.Trading.Service",
+        "projectPath": "/Users/priyanka/Documents/Training/Projects/Play.Trading/src/Play.Trading.Service/Play.Trading.Service.csproj",
+        "packagesPath": "/Users/priyanka/.nuget/packages/",
+        "outputPath": "/Users/priyanka/Documents/Training/Projects/Play.Trading/src/Play.Trading.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/priyanka/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/Microservices-DotNet/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "MassTransit.MongoDb": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Masstransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Play.Catalog.Contracts": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Play.Common": {
+              "target": "Package",
+              "version": "[1.0.19, )"
+            },
+            "Play.Identity.Contracts": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Play.Inventory.Contracts": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

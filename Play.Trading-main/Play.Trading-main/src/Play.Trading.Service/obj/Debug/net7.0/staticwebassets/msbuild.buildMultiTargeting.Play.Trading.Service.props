@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Play.Trading.Service.props" />
+</Project>
